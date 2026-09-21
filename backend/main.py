@@ -10,7 +10,7 @@ class student_details:
         self.connect=mysql.connector.connect(
             host="localhost",
             user="root",
-            password="MYsql@123",
+            password="#########",
             database="student_db")
         self.cusor=self.connect.cursor()
         print(" DATABASE CONNECTED SUCCESSFULLY ")
